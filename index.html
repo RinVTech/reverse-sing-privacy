@@ -2,10 +2,10 @@
 <!--
   Reverse Sing privacy policy.
 
-  Basis: the structure, section order and plain register that comparable apps
-  actually publish, namely small ad-supported iOS games and voice or recording
-  utilities that serve ads through Google AdMob. Policies studied 2026-09-21 for
-  their skeleton and conventions only; no text was reused from any of them:
+  Structure and register follow what comparable apps actually publish, namely
+  small ad-supported iOS games and voice or recording utilities that serve ads
+  through Google AdMob. Policies studied 2026-09-21 for their skeleton and
+  conventions only; no text was reused from any of them:
 
     https://ho-ku.github.io/                             (Flippo, voice party game)
     https://reverse-audio.tantostudio.com/privacy/       (Reverse Audio, Tanto Studio)
@@ -17,11 +17,12 @@
 
   Every statement here was checked against this repository: RoundStore and
   RoundFiles (rounds under Application Support), ShareExporter (share sheet
-  copies), AdsController and ConsentCoordinator (AdMob, ATT, UMP), OnboardingGate
-  (the single UserDefaults flag), Resources/PrivacyInfo.xcprivacy and project.yml.
+  copies, named after the round), AdsController and ConsentCoordinator (AdMob,
+  ATT, UMP), OnboardingGate (the single UserDefaults flag),
+  Resources/PrivacyInfo.xcprivacy and project.yml.
 
   The date below is the day this page was last changed; update it whenever the
-  policy changes, as the Changes section promises.
+  policy changes, as section 8 promises.
 -->
 <html lang="en">
 <head>
@@ -48,20 +49,12 @@
   li { margin: .35rem 0; }
   a { color: #0b63c5; }
   .meta { color: #6b6b70; font-size: .95rem; margin: 0 0 1.5rem; }
-  .ph {
-    background: #ffe9a8;
-    color: #1c1c1e;
-    padding: 0 .2em;
-    border-radius: .2em;
-    font-weight: 600;
-  }
   footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #d8d8dc; color: #6b6b70; font-size: .9rem; }
   @media (prefers-color-scheme: dark) {
     body { color: #f2f2f7; background: #111114; }
     a { color: #6fb3ff; }
     .meta, footer { color: #9a9aa2; }
     footer { border-top-color: #2c2c31; }
-    .ph { background: #6a5410; color: #fff6d8; }
   }
 </style>
 </head>
@@ -70,87 +63,108 @@
 <h1>Privacy Policy for Reverse Sing</h1>
 <p class="meta">Last updated September 21, 2026</p>
 
-<h2>Overview</h2>
-<p>Reverse Sing is a party game for two people and one iPhone, made by RinVTech. It is free and
-supported by ads. There is no account to create, no sign-in, and no server of ours: the game runs on
-your device and everything you record stays there. This policy explains what the app records, what
-it keeps, and what the ads in it do.</p>
+<p>RinVTech ("we", "our", or "us") respects your privacy. This Privacy Policy explains what the
+Reverse Sing mobile application (the "App") records, what it keeps, and what the ads in it do.</p>
 
-<h2>Microphone and recordings</h2>
-<p>The app records audio only while you are recording a take, after you press a record button and
-grant iOS microphone permission. It does not listen at any other time, and you can refuse
-permission and still use the rest of the app.</p>
-<p>Your recordings are not uploaded. We never receive them, and we could not: the app contains no
-networking code of its own and sends your audio nowhere.</p>
+<p>Reverse Sing is designed to operate locally on your device. There is no account to create, and we
+operate no servers that store your personal data.</p>
 
-<h2>What the app stores on your device</h2>
-<p>Each round is saved in the app's own Application Support folder as audio files plus a small
-manifest file, which holds the round's name, the date you created it, and the timing of the parts
-you placed. The only other thing the app stores is a single on-device flag remembering that you
-have seen the how-to-play screen. Because these are ordinary app files, they may be included in
-your device backups, which Apple handles under its own terms.</p>
+<h2>1. Information We Collect</h2>
 
-<h2>Sharing</h2>
-<p>Sharing is optional. When you share a round, the app makes compressed copies of the audio,
-names them after the round, and passes them to the standard iOS share sheet, where you choose the
-destination. The copies go only where you send them, and whatever you send them to handles them
-under its own privacy policy.</p>
+<p><strong>Microphone access and audio data.</strong> The App requires access to your device's
+microphone to record audio for gameplay. Audio is recorded only while you are recording a take,
+after you press a record button and grant iOS microphone permission. The App does not listen at any
+other time, and you can refuse permission and still use the rest of the App. All recorded audio is
+processed and stored entirely on your device. Your recordings are not uploaded: the App contains no
+networking code of its own and sends your audio nowhere, so we never receive it.</p>
 
-<h2>Ads, consent, and tracking</h2>
-<p>Ads are served by Google AdMob, which is the only third-party software in the app. There is no
-analytics or crash-reporting service in it. To deliver and measure ads, Google and its ad partners
-may collect data such as device and advertising identifiers, approximate location derived from your
-IP address, and your interactions with ads.</p>
-<p>Before the first ad is requested, iOS shows Apple's App Tracking Transparency prompt. Ads are
-personalized only if you allow tracking there. In the European Economic Area and the United
-Kingdom, a consent form provided by Google's User Messaging Platform decides whether personal data
-may be used for ads, and you can reopen that form at any time with the <strong>Privacy
-options</strong> button above the list of rounds, which appears where your region requires it.</p>
-<p>Declining tracking or consent does not remove the ads. The app simply requests non-personalized
-ones instead, and the game plays exactly the same. Ads in Reverse Sing are always muted so they
-cannot interrupt a round. The app also supports Apple's SKAdNetwork, which lets an ad click be
-credited without identifying you.</p>
+<p><strong>On-device storage.</strong> The App stores game rounds locally in its Application Support
+folder. This includes audio files, a small manifest file containing the round's name, the date you
+created it, and the timing of the parts you placed, and a simple flag recording that you have seen
+the how-to-play screen. Because these are standard iOS application files, they may be included in
+your device backups, which Apple handles under its own terms and privacy policy.</p>
 
-<h2>Third-party services</h2>
-<p>Google's own policies explain what it collects through the ads in this app:</p>
+<h2>2. Third-Party Services and Advertising</h2>
+
+<p>Reverse Sing is a free application supported by advertisements. We use Google AdMob as our sole
+third-party service provider to deliver ads. The App does not integrate any third-party analytics or
+crash-reporting tools.</p>
+
 <ul>
-  <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-  <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses information
-  from sites or apps that use our services</a></li>
+  <li><strong>Advertising data.</strong> To serve and measure ads, Google AdMob and its partners may
+  collect data such as device identifiers, advertising IDs, approximate location derived from your IP
+  address, and your interactions with ads.</li>
+  <li><strong>User consent and tracking.</strong> We comply with Apple's App Tracking Transparency
+  framework. Ads are personalized only if you grant tracking permission. In the European Economic
+  Area and the United Kingdom, we use Google's User Messaging Platform to gather your consent for
+  personalized ads. If you decline tracking or consent, the App serves non-personalized ads instead,
+  and gameplay remains exactly the same. Ads in Reverse Sing are always muted, so they cannot
+  interrupt a round.</li>
+  <li><strong>SKAdNetwork.</strong> The App supports Apple's SKAdNetwork, which lets an ad click be
+  credited without identifying you.</li>
 </ul>
 
-<h2>How long information is kept</h2>
-<p>Your rounds stay on your device until you remove them. Deleting a round deletes its manifest and
-all of its audio, and deleting the app removes everything it stored. We hold no copy of any of it.</p>
+<p>For more information on how Google handles data, please review the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information from
+sites or apps that use our services</a>.</p>
 
-<h2>Children</h2>
-<p>Reverse Sing is a general-audience game and is not directed to children under 13. We do not
-knowingly collect personal information from children. If you believe a child has provided personal
-information through the app, please contact us so we can look into it.</p>
+<h2>3. Data Sharing</h2>
 
-<h2>Your choices and rights</h2>
+<p>Any sharing of your recordings is entirely at your discretion. When you choose to share a round,
+the App generates compressed copies of the audio, names them after the round, and passes them to the
+standard iOS share sheet. The files go only to the destination you choose, and are then governed by
+the privacy policy of the platform or service you share them to.</p>
+
+<h2>4. Data Retention and Deletion</h2>
+
+<p>Because we do not store your data on external servers, you have full control over your
+information directly on your device:</p>
+
 <ul>
-  <li><strong>Your recordings:</strong> open, rename, or delete any round in the app, or delete the
-  app to remove them all. Because we hold no data about you, this is also how requests to access or
-  delete your information are met.</li>
-  <li><strong>Microphone:</strong> turn access off at any time in iOS Settings, Privacy and
-  Security, Microphone.</li>
-  <li><strong>Tracking:</strong> change your answer in iOS Settings, Privacy and Security,
+  <li><strong>Local deletion.</strong> You can open, rename, or delete individual rounds within the
+  App at any time. Deleting a round permanently removes its manifest and all of its audio from your
+  device.</li>
+  <li><strong>App deletion.</strong> Uninstalling the App deletes everything it stored. We hold no
+  copies of your data.</li>
+</ul>
+
+<p>Because we hold no data about you, this is also how requests to access or delete your information
+are met.</p>
+
+<h2>5. Children's Privacy</h2>
+
+<p>Reverse Sing is intended for a general audience and is not directed at children under the age of
+13. We do not knowingly collect personal information from children. If you believe a child has
+provided us with personal information, please contact us so we can take appropriate action.</p>
+
+<h2>6. Your Privacy Rights and Controls</h2>
+
+<p>You can manage your privacy preferences at any time directly through your iOS device:</p>
+
+<ul>
+  <li><strong>Microphone access.</strong> Revoke or grant microphone permission in Settings, Privacy
+  and Security, Microphone.</li>
+  <li><strong>App tracking.</strong> Change your tracking answer in Settings, Privacy and Security,
   Tracking.</li>
-  <li><strong>Ad consent:</strong> reopen the consent form with Privacy options in the app, where
-  it is shown.</li>
+  <li><strong>Ad consent (EEA and UK).</strong> Reopen the consent form with the Privacy options
+  button above the list of rounds in the App, which appears where your region requires it.</li>
 </ul>
 
-<h2>Security</h2>
-<p>Your rounds live in the app's own protected storage on your device, covered by the device's
-security. We run no servers and store none of your data.</p>
+<h2>7. Security</h2>
 
-<h2>Changes to this policy</h2>
-<p>This policy may be updated from time to time. Any change will be posted on this page with a new
-date at the top.</p>
+<p>Your rounds are stored in the App's own protected directory on your device, relying on Apple's
+standard iOS security architecture. We run no servers and store none of your data, so there is no
+collection of it on our side to be breached.</p>
 
-<h2>Contact</h2>
-<p>If you have a question about this policy or about privacy in the app, write to
+<h2>8. Changes to This Privacy Policy</h2>
+
+<p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with
+a revised "Last updated" date at the top.</p>
+
+<h2>9. Contact Us</h2>
+
+<p>If you have any questions or concerns about this Privacy Policy, please contact us at
 <a href="mailto:support@rinvtech.com">support@rinvtech.com</a>.</p>
 
 <footer>Reverse Sing, by RinVTech.</footer>
